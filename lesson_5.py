@@ -22,3 +22,4 @@ print(config('DATABASE_URL'))
 
 commented_var = config('COMMENTED', default=0, cast=int)
 print(commented_var * 2)
+# End of my prog
